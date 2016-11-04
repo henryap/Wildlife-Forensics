@@ -705,6 +705,11 @@ width: 100%;
 .sidebar_widget ul li {
      background: url('../images/bg-sprite-li.png');
      background-repeat: no-repeat;
+     background-position: 0 4;
+}
+
+.main-sidebar .sidebar-box .sidebar_widget h3.arrow, .main-sidebar .sidebar-box .widget_text h3.arrow {
+    background-position: 0 2;
 }
 
 .main-sidebar .sidebar-box .widget_text p{border-bottom: none;padding-bottom: .5em;}
