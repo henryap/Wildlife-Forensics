@@ -1989,7 +1989,7 @@ function ufandshands_appSystem(){
 }
 
 
-function checkFormSubmit(){ 
+function checkFormSubmit(){
     /*
     The following code is additional spam protection
     'name' field is a spam bot honeypot field
@@ -2004,12 +2004,12 @@ function checkFormSubmit(){
       $phone = $_POST['phone'];
       $program_type = $_POST['program_type'];
 
-        header('Location: FORM_HANDLER_URL?first_name='.$first_name.'&last_name='.$last_name.'&email='.$email.'&phone='.$phone.'&program_type='.$program_type);
+        header('Location: http://marketing.apollidon.com/l/63232/2016-11-15/36m8jh?first_name='.$first_name.'&last_name='.$last_name.'&email='.$email.'&phone='.$phone.'&program_type='.$program_type);
         }else{
-          header('Location: THANK YOU PAGE URL');
+          header('Location: http://worldclassdegrees.com/wildforsci_wp/request-thank-you/');
         }
      }
  }
- 
+
 
 ?>
