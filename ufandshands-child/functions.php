@@ -55,6 +55,7 @@ function ufandshands_child_footer_common_scripts() {
         wp_enqueue_script('cookie-jquery',    get_stylesheet_directory_uri() . '/library/js/js-cookie.js', array('jquery'), false, true);
         wp_enqueue_script('call-form-validation',    get_stylesheet_directory_uri() . '/library/js/call-validate.js', array('jquery'), false, true);
         wp_enqueue_script('child-common-script',    get_stylesheet_directory_uri() . '/library/js/script.js', array('jquery'), false, true);
+        wp_enqueue_script('child-application-script',    get_stylesheet_directory_uri() . '/library/js/application.js', array('jquery'), false, true);
 	}
 }
 add_action('wp_enqueue_scripts', 'ufandshands_child_footer_common_scripts');
