@@ -289,6 +289,15 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
   padding-right: 1px;
 }
 
+.prog_option.col-sm-6 {
+  background-color: #f9fafe;
+  float: left;
+  margin: 15px 0 0 0;
+  width: 50%;
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .prog_option.col-sm-4 ul{
   min-height: 150px;
 }
