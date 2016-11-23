@@ -276,6 +276,7 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
     margin: 0;
     text-align: center;
     padding: 5px 20px;
+    border: 1px solid #fff;
 }
 
 .prog_option.col-sm-4{
