@@ -1,10 +1,7 @@
 <!-- apollo banner -->
 <section class="main-banner">
 	<div class="container apply-container">
-		<div class="apply-main-banner-meta">
-			<?php ufandshands_content_title(); //page title ?>
-		</div>
-		 	
+		<h1 class="container">Thank You</h1>
 	</div>
-</section>	
+</section>
 <!-- eof apollo banner -->
