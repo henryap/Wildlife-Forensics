@@ -92,7 +92,6 @@ body[data-useragent*='MSIE 10.0'] #primary-nav ul.children li.page_item_has_chil
     padding-left: 1.5em;
 }
 
-
 /*Fixes banner form styling issues in IE10*/
 body[data-useragent*='MSIE 10.0'] .main-banner-form ul{
     margin: 0 2.5em 1.5em 0;
@@ -170,6 +169,17 @@ label.error{line-height: 2em;}
   max-height: 100px;
   resize: none;
   width: 100%;
+}
+
+.apply-main-banner-meta {
+   width: 940px;
+   margin: 0 auto;
+
+}
+
+.apply-main-banner-meta h1 {
+  width: auto;
+  margin-bottom: 0px;
 }
 
 /* Contact Us Page form styles */
@@ -280,14 +290,14 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
 }
 
 .prog_option.col-sm-4{
-  background-color: #f9fafe;
-  float: left;
-  margin-top: 15px;
-  width: 33%;
-  position: relative;
-  min-height: 270px;
-  padding-left: 1px;
-  padding-right: 1px;
+    background-color: #f9fafe;
+    float: left;
+    margin: 15px 0 0 30px;
+    width: 46%;
+    position: relative;
+    min-height: 270px;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 .prog_option.col-sm-6 {
@@ -299,6 +309,26 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
   padding-left: 0px;
   padding-right: 0px;
 }
+
+.ty_prog_option.col-sm-4{
+    background-color: #f9fafe;
+    float: left;
+    margin: 15px 0 0 10px;
+    width: 46%;
+    position: relative;
+    min-height: 270px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+
+.ty_prog_option.col-sm-4 h4 {
+    text-align: center;
+    background-color: #ebeef7;
+    margin-top: 0px;
+    padding: 10px 20px;
+}
+
 .prog_option.col-sm-4 ul{
   min-height: 150px;
 }
@@ -313,6 +343,11 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
     margin-top: 0;
     width: 100%;
     padding: 10px 0;
+}
+
+/* utility classes */
+.indent {
+    padding-left: 20px;
 }
 
 @media (max-width: 899px){
@@ -391,7 +426,7 @@ tr th{background: #D7DEF0; border-bottom: 1px solid #6377B2;}
 
 /* CEU Course table */
 #IVtable td {
-  width: auto;  
+  width: auto;
 }
 
 /*Master's Degree Application*/
