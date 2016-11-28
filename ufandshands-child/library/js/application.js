@@ -1,8 +1,9 @@
 $(document).ready(function(){
 
 	//Log Cookies
-	/*console.log(Cookies.get('app_submitted_ms'));
-	console.log(Cookies.get('int_degree'));*/
+	console.log(Cookies.get('app_submitted_cert'));
+	console.log(Cookies.get('app_submitted_nd'));
+	console.log(Cookies.get('int_degree'));
 
 	//Certificate
 	//Shows International content for international students
