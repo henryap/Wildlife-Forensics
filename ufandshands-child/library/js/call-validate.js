@@ -245,16 +245,26 @@ $(document).ready(function(){
                             //Tracking
                             //ga('send', 'event', 'MDAP', 'Submit', 'Cert');
                             Cookies.set('app_submitted_cert', 'true', { expires: 60 });
+                            console.log('APP Submitted Cert:');
+                            console.log(Cookies.get('app_submitted_cert'));
+
                         }else if($('#mandatory_form').hasClass('nd')){
                             //Tracking
                             //ga('send', 'event', 'MDAP', 'Submit', 'ND');
                             Cookies.set('app_submitted_nd', 'true', { expires: 60 });
+                            console.log('APP Submitted Non-Degree:');
+                            console.log(Cookies.get('app_submitted_nd'));
                         }
 
                         if($('select[name=Degree_from_Non_US_Institution__c]').val()=='Yes'){
                              Cookies.set('int_degree', 'yes', { expires: 60 });
+                             console.log('INT Degree is set to Yes:');
+                             console.log(Cookies.get('int_degree'));
+
                              }else{
                               Cookies.set('int_degree', 'no', { expires: 60 });
+                              console.log('INT Degree is set to NO:');
+                              console.log(Cookies.get('int_degree'));
                              }
                         form.submit();
                     }
