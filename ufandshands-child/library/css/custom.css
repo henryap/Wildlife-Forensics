@@ -768,6 +768,11 @@ width: 100%;
 .main-sidebar .sidebar-box .sidebar_widget blockquote p{border:none;}
 .main-sidebar .sidebar-box .sidebar_widget blockquote p.attrib{color: #6377B2;font-size: .6em;}
 
+#grad-cert-glance li {
+    font-size: 1.2em;
+    background-position: 0 6px;
+}
+
 /*Sidebar links*/
 .blue-box-link {
     text-align: center;
