@@ -429,6 +429,10 @@ tr th{background: #D7DEF0; border-bottom: 1px solid #6377B2;}
   width: auto;
 }
 
+#IVtable thead th {
+  text-align: left;
+}
+
 /*Master's Degree Application*/
 table#masters_application_info{border: 1px solid #545454;margin: 10px 0 10px 12px;}
 table#masters_application_info tr{width: auto;}
