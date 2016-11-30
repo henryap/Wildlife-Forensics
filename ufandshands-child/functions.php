@@ -16,6 +16,8 @@ function my_enqueue_styles() {
     wp_enqueue_style( 'style', get_stylesheet_uri() );
     /* Adds the custom styles of the child theme */
     wp_enqueue_style( 'custom-style', get_stylesheet_directory_uri() . '/library/css/custom.css' );
+    /* Adds the lightbox styles */
+    wp_enqueue_style( 'lightbox-style', get_stylesheet_directory_uri() . '/lightbox/css/lightbox.css' );
 
 
 }
@@ -54,6 +56,8 @@ function ufandshands_child_footer_common_scripts() {
         wp_enqueue_script('jquery-form-validate', get_stylesheet_directory_uri() . '/library/js/jquery.validate.min.js', array('jquery'), false, true);
         wp_enqueue_script('call-form-validation',    get_stylesheet_directory_uri() . '/library/js/call-validate.js', array('jquery'), false, true);
         wp_enqueue_script('child-common-script',    get_stylesheet_directory_uri() . '/library/js/script.js', array('jquery'), false, true);
+        /* Lightbox Script */
+        wp_enqueue_script('Lightbox-script',    get_stylesheet_directory_uri() . '/lightbox/js/lightbox.js', array('jquery'), false, true);
 	}
 }
 add_action('wp_enqueue_scripts', 'ufandshands_child_footer_common_scripts');
