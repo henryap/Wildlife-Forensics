@@ -110,9 +110,9 @@ body[data-useragent*='MSIE 10.0'] .main-banner-form ul li:nth-child[5], body[dat
   margin-right: 0px;
 }
 
-body[data-useragent*='MSIE 10.0'] .main-banner-form select.half.interest{width: 47%;}
+body[data-useragent*='MSIE 10.0'] .main-banner-form select.half#interest{width: 47%;}
 
-.main-banner-form select.half.interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
+.main-banner-form select.half#interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
 
 .main-banner-form input, .main-banner-form textarea {border: 1px solid white; color: #888;font-family: 'ufshands',Arial,sans-serif; font-size: 15px; margin-bottom: 10px;padding: 10px 5px; width: 100%;}
 
@@ -143,7 +143,7 @@ label.error{line-height: 2em;}
 
 .main-banner-form label.error{color: white;font-family: 'ufshands',Arial,sans-serif;font-style: italic;}
 
-.main-banner-form select.half.interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
+.main-banner-form select.half#interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
 
 .main-banner-form input.half{display: inline-block;float: left;width: 47%;}
 
@@ -221,7 +221,7 @@ input:invalid, textarea:invalid {
 
 .main-banner-form label.error{color: white;font-family: 'ufshands',Arial,sans-serif;font-style: italic;}
 
-.main-banner-form select.half.interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
+.main-banner-form select.half#interest{display: inline-block;float: left;margin-right: 10px; width: 49%;}
 
 .main-banner-form input.half{display: inline-block;float: left;width: 47%;}
 
@@ -262,9 +262,6 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
 }
 
 /*Thank you page*/
-.page-template-template-thankyou .main-content{float: none;width: 100%;}
-#ms_info, #ud_info, #cert_info, #nd_info{width: 100%;}
-
 .page-template-template-thankyou .main-banner{min-height: 177px;position: relative;}
 .page-template-template-thankyou .main-banner .apply-container{background: rgba(255,255,255,.5);bottom: 0;position: absolute;width: 100%;}
 .page-template-template-thankyou .main-banner h1{padding: 10px;}
@@ -313,7 +310,7 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
   padding-right: 0px;
 }
 
-.ty_prog_option{
+.ty_prog_option.col-sm-4{
     background-color: #f9fafe;
     float: left;
     margin: 15px 0 0 10px;
@@ -325,7 +322,7 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
 
 }
 
-.ty_prog_option h4 {
+.ty_prog_option.col-sm-4 h4 {
     text-align: center;
     background-color: #ebeef7;
     margin-top: 0px;
@@ -357,7 +354,6 @@ ul.wp_rss_retriever_list .wp_rss_retriever_image{
   .prog_option.col-sm-4 ul{min-height: 235px;}
   .prog_option.full h4{min-height: 65px;}
 }
-
 
 
 @media (max-width: 658px){
@@ -992,20 +988,13 @@ width: 100%;
   width: 100%;
 }
 
-.main-banner-form select.half.interest{display: inline-block;float: left;margin-right: 10px; width: 100%;}
+.main-banner-form select.half#interest{display: inline-block;float: left;margin-right: 10px; width: 100%;}
 
 .main-banner-form input.half{display: inline-block;float: left;width: 100%;}
 
 .main-banner .main-banner-meta h1 {font-size: 2em;padding: 10px 0;}
 
 #content-wrap article.span-23 .content-tabs ul.menu li a{width: 100%;}
-
-/*Thank you page responsive 899px*/
-.ty_prog_option{display: block;float: none;margin: 0 auto;width: 75%;}
-.ty_prog_option:first-child{margin-bottom: 20px;}
-
- .prog_option ul{min-height: 235px;}
- .prog_option.full h4{min-height: 65px;}
 
 #app_tab_list{
   background-image: url(../images/app_progress_sm.jpg);
