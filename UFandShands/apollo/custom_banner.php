@@ -11,7 +11,7 @@
 <h4>Let's Connect</h4>
 <h6>Fill out this form to learn more about our program</h6>
 
-<form id="contact_form1" class="banner_form" name="contact_form" action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="post">
+<form id="rmi_one" class="banner_form" name="contact_form" action=<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?> method="post">
         <ul>
             <li style="position: absolute; left: -5000px; top: -5000px;"><input id="mname" class="input_name1" type="text" name="name" value="" placeholder="Fill this field out if you aren't interested in any of the programs."></li>
             <li><input id="fname" class="input_name1" type="text" name="first_name" value="First Name*"></li>
@@ -23,7 +23,7 @@
     <label for="pardot_extra_field">Comments</label>
     <input type="text" id="pardot_extra_field" name="pardot_extra_field"></div></li>
 
-            <li> <select class="country1 half" id="interest"  class="select_type1 icon2" id="fselect1" name="program_type">
+            <li> <select class="country1 half interest" name="program_type">
                             <option value="">Select a program*</option>
                             <option value="Certificate">Certificate</option>
                             <option value="Non-Degree">Non-Degree</option>
