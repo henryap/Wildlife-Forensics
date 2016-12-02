@@ -980,7 +980,7 @@ width: 100%;
 @media (max-width: 899px){
 
 #whole_page .main-banner{background-position: top left;}
-#whole_page .main-banner div.container .main-banner-meta{height: 45%; margin-left: 0;position: relative;}
+#whole_page .main-banner div.container .main-banner-meta{height: 260px; margin-left: 0;position: relative;}
 #whole_page .main-banner div.container .main-banner-meta h1{bottom: 0; position: absolute;}
 #whole_page .main-banner div.container .main-banner-meta div{display: none;}
 
@@ -1082,6 +1082,8 @@ padding: 0 20px;
 /* Smartphones----------- */
 @media (max-width: 480px) {
   #app_tab_list{margin-bottom: 0;}
+
+  #whole_page .main-banner div.container .main-banner-meta {height: 177px; }
 
   .main-banner .main-banner-meta h1 {
     font-size: 1.3em;
