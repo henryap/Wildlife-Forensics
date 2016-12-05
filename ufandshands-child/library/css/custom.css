@@ -1084,6 +1084,12 @@ padding: 0 20px;
   #app_tab_list{margin-bottom: 0;}
 
   #whole_page .main-banner div.container .main-banner-meta {height: 177px; }
+  #whole_page .main-banner div.container .apply-main-banner-meta {height: 177px; }
+
+  /* fix for the mobile header on contact page - applies to any template using apply_custom_banner.php  */
+  #whole_page .main-banner div.container .apply-main-banner-meta div { height: 130px !important; }
+  .main-banner { min-height: 0; }
+  /* end */
 
   .main-banner .main-banner-meta h1 {
     font-size: 1.3em;
