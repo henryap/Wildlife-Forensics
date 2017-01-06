@@ -979,6 +979,10 @@ width: 100%;
 /* Responsive Form Styling */
 @media (max-width: 899px){
 
+.apollo-footer .footer-cell {
+  height: auto;
+}
+
 #whole_page .main-banner{background-position: top left;}
 #whole_page .main-banner div.container .main-banner-meta{height: 260px; margin-left: 0;position: relative;}
 #whole_page .main-banner div.container .main-banner-meta h1{bottom: 0; position: absolute;}
