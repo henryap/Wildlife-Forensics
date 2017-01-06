@@ -1070,7 +1070,7 @@ padding: 0 20px;
     }
 
     /* fixes image width on mobile */
-    .page img.shadow, .post img.shadow, .post #content-wrap img, .page #content-wrap img {
+    #faculty img.shadow, #faculty img.shadow, #faculty #content-wrap img, #faculty #content-wrap img {
       width: 100px !important;
     }
 }
