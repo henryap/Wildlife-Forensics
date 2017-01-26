@@ -72,8 +72,11 @@ body[data-useragent*='MSIE 10.0'] #primary-nav ul.children li.page_item_has_chil
      background-color: rgba(255,255,255,0.8);
      color: #243777;
      font-family: 'ufshands', Arial, sans-serif;
+     font-size: 27px;
      padding: 10px;
   }
+
+.page-template-template-fwnobanner .main-banner .main-banner-meta h1, .page-template-template-contact .main-banner .main-banner-meta h1{width: 940px;}
 
 .main-banner .main-banner-meta h1 sup{font-size: .6em;}
 .main-banner .apply-main-banner-meta h1{background-color: rgba(255,255,255,0.8);padding: 10px;width: 100%;}
@@ -475,6 +478,8 @@ background-color: #FFF;
 .table-responsive td.credits{max-width: 50px;text-align: center;}
 .table-responsive td.semester{text-align: center;max-width: 50px;}
 
+/*Module Table*/
+.module-table thead th:first-child, .module-table tbody tr td:first-child{text-align: center; width: 20%;}
 
 /*FAQ Accordion*/
 #content .su-accordion .su-spoiler {
@@ -983,9 +988,9 @@ width: 100%;
   height: auto;
 }
 
-#whole_page .main-banner{background-position: top left;}
-#whole_page .main-banner div.container .main-banner-meta{height: 260px; margin-left: 0;position: relative;}
-#whole_page .main-banner div.container .main-banner-meta h1{bottom: 0; position: absolute;}
+#whole_page .main-banner{background-position: top left;min-height: auto;}
+#whole_page .main-banner div.container .main-banner-meta, .main-banner div.container .apply-main-banner-meta{height: 260px; margin-left: 0;position: relative;}
+#whole_page .main-banner div.container .main-banner-meta h1, .main-banner div.container .apply-main-banner-meta h1{bottom: 0; position: absolute;}
 #whole_page .main-banner div.container .main-banner-meta div{display: none;}
 
 .container.apply-container{padding: 0;width: 100%;}
@@ -1001,6 +1006,7 @@ width: 100%;
 .main-banner-form input.half{display: inline-block;float: left;width: 100%;}
 
 .main-banner .main-banner-meta h1 {font-size: 2em;padding: 10px 0;}
+.page-template-template-fwnobanner .main-banner .main-banner-meta h1, .page-template-template-contact .main-banner .main-banner-meta h1 {font-size: 2em;padding: 10px 0;width: 100%;}
 
 #content-wrap article.span-23 .content-tabs ul.menu li a{width: 100%;}
 
@@ -1095,7 +1101,7 @@ padding: 0 20px;
   .main-banner { min-height: 0; }
   /* end */
 
-  .main-banner .main-banner-meta h1 {
+  /*.main-banner .main-banner-meta h1 {
     font-size: 1.3em;
-    }
+    }*/
 }
